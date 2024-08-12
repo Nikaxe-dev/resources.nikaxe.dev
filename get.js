@@ -1,4 +1,4 @@
-import blogdata from "database/blog.json"
+import blogdata from "./database/blog.json"
 
 const data = {
     
