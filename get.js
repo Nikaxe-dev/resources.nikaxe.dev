@@ -1,7 +1,9 @@
-const serverdata = {
+import blogdata from "database/blog.json"
+
+const data = {
     
 }
 
-serverdata.blog = import("./database/blog.json")
+data.blog = blogdata
 
-console.log("serverdata loaded: ", serverdata.blog)
+console.log("Loaded data: ", data.blog)
