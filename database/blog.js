@@ -8,7 +8,8 @@
             "content": {
                 "type": "enter",
                 "language": "html",
-                "src": "Test working! Woo-hoo! <a href='youtube.com'>youtube</a> 0"
+                "src": "Test working! Woo-hoo! <a href='youtube.com'>youtube</a> 0
+                test for multi-line inputs for the src of the blog"
             }
         },
 
