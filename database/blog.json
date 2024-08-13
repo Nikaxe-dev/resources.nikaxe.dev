@@ -34,6 +34,35 @@
                 "language": "html",
                 "src": "Test working! Woo-hoo! <a href='youtube.com'>youtube</a> 2"
             }
+        },
+
+        {
+            "name": "Formatting - BTXT",
+            "description": "BTXT formatting",
+            "tags": ["test", "tested", "and", "testing"],
+
+            "content": {
+                "type": "enter",
+                "language": "btxt",
+                "src": {
+                    "data": {
+                        "attributes": {
+                            "style": "index.css"
+                        }
+                    },
+
+                    "content": [
+                        "Text! Woah!!!!",
+                        "New Line!",
+                        "$new$1",
+                        "Two new lines?",
+                        "$new$1",
+                        "$link$https://google.com/$Link! Leads to google.",
+                        "$custom$Hello! This is called custom text!${color:rgb(141, 185, 221)}",
+                        "$custom$Hello! This is called custom text!${font-size:'75px'}"
+                    ]
+                }
+            }
         }
     ]
 }
