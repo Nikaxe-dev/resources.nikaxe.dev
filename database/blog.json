@@ -54,12 +54,14 @@
                     "content": [
                         "Text! Woah!!!!",
                         "New Line!",
-                        "$new$1",
+                        "$new${amount:1}",
                         "Two new lines?",
-                        "$new$1",
-                        "$link$https://google.com/$Link! Leads to google.",
-                        "$custom$Hello! This is called custom text!${color:rgb(141, 185, 221)}",
-                        "$custom$Hello! This is called custom text!${font-size:'75px'}"
+                        "$new${amount:1}",
+                        "$link$Link! Leads to google.${link:'https://google.com'}",
+                        "$custom$Hello! This is called custom text!${color:rgb(141, 185, 221), font-size:'30px'}",
+                        "$custom$Hello! This is called custom text!${font-size:'75px'}",
+                        "$new${amount:2}",
+                        "$link$You can also have a mix of two things. (link & custom){font-size:'65px', color:rgb(139, 179, 219)}"
                     ]
                 }
             }
