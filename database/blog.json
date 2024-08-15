@@ -59,7 +59,7 @@
                         "$new$${\"amount\":1}",
                         "$link$Link! Leads to google.${\"link\":\"https://google.com\"}",
                         "$text$Hello! This is called custom text!${\"style\":{\"color\":\"rgb(141, 185, 221)\", \"font-size\":\"30px\"}}",
-                        "$text$Hello! This is called custom text!${{\"style\":\"font-size\":\"75px\"}}",
+                        "$text$Hello! This is called custom text!${\"style\":{\"font-size\":\"75px\"}}",
                         "$new$${\"amount\":2}",
                         "$link$You can also have a mix of two things. (link & custom) Leads to youtube.${\"style\":{\"font-size\":\"65px\", \"color\":\"rgb(255, 100, 50)\"}, \"link\":\"https://youtube.com\"}"
                     ]
