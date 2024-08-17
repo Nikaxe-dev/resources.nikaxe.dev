@@ -63,7 +63,13 @@
                         "$new$${\"amount\":2}",
                         "$link$You can also have a mix of two things. (link & custom) Leads to youtube.${\"style\":{\"font-size\":\"65px\", \"color\":\"rgb(255, 100, 50)\"}, \"link\":\"https://youtube.com\"}",
                         "$new$${\"amount\":5}",
-                        "$embed$Embed!${\"link\":\"https://github-readme-stats.vercel.app/api?username=Nikaxe-dev&theme=dark\", \"style\":{\"margin\":\"75px\"}}"
+                        "$embed$Embed!${\"link\":\"https://github-readme-stats.vercel.app/api?username=Nikaxe-dev&theme=dark\", \"style\":{\"margin\":\"75px\"}}",
+                        "$text$Test0${}",
+                        "$text$Test1${}",
+                        "$text$Test2${}",
+                        "$text$Test3${}",
+                        "$text$Test4${}",
+                        "$text$Test5${}"
                     ]
                 }
             }
