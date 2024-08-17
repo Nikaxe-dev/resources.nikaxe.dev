@@ -63,7 +63,7 @@
                         "$new$${\"amount\":2}",
                         "$link$You can also have a mix of two things. (link & custom) Leads to youtube.${\"style\":{\"font-size\":\"65px\", \"color\":\"rgb(255, 100, 50)\"}, \"link\":\"https://youtube.com\"}",
                         "$new$${\"amount\":5}",
-                        "$embed$Embed!${\"link\":\"https://youtube.com\"}"
+                        "$embed$https://youtube.com${}"
                     ]
                 }
             }
